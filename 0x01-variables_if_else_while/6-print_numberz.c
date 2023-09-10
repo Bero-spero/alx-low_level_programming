@@ -2,7 +2,7 @@
 /**
  * main - printball single digits number between 0 to 10
  * fowlled by new line using putchar
- * return 0 always
+ * Return: Always 0 (succses)
 */
 int main(void)
 	{
