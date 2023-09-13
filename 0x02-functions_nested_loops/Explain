@@ -1,0 +1,28 @@
+n function ‘print_times_table’:
+5-sign.c:10:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘attribute’ before ‘{’ token
+   10 | {
+      | ^
+5-sign.c:28: error: expected ‘{’ at end of input
+   28 | 
+      | 
+In file included from 5-sign.c:1:
+main.h:17:28: error: unused parameter ‘n’ [-Werror=unused-parameter]
+   17 | void print_times_table(int n)
+      |                        ~~~~^
+cc1: all warnings being treated as errors
+main_0.c: In function ‘print_times_table’:
+main_0.c:10:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘attribute’ before ‘{’ token
+   10 | {
+      | ^
+main_0.c:19: error: expected ‘{’ at end of input
+   19 | }
+      | 
+In file included from main_0.c:2:
+main.h:17:28: error: unused parameter ‘n’ [-Werror=unused-parameter]
+   17 | void print_times_table(int n)
+      |                        ~~~~^
+
+
+
+
+
