@@ -4,7 +4,7 @@
 /**
  * print_times_table - prints the n times table, starting with 0
  * @n: number of the times table
- * Discription: function that prints all natural number from n to 98
+ * Description : function that prints all natural numbers from 0 to 98
 */
 
 void print_to_98(int n)
