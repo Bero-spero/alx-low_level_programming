@@ -17,5 +17,5 @@ int _islower(int c)
 		{
 			return (0);
 		}
-		_putcher('\n');
+		_putchar('\n');
 }
