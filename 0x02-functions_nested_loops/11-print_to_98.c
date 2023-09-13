@@ -2,9 +2,10 @@
 #include"main.h"
 
 /**
-* jack_bauer - prints every minute of the day of Jack Bauer
-* starting from 00:00 to 23:59
+* print_times_table - prints the n times table, starting with 0
+* @n: number of the times table
 */
+
 void print_to_98(int n)
 {
 	if (n <= 98)
@@ -14,8 +15,7 @@ void print_to_98(int n)
 			printf("%d", n);
 			if (n == 98)
 			continue;
-			printf(",");
-			printf(' ');
+			printf(" ,");
 		}
 		printf("\n");
 	}
@@ -26,8 +26,7 @@ void print_to_98(int n)
 			printf("%d", n);
 			if (n == 98)
 			continue;
-			printf(",");
-			printf(' ');
+			printf(" ,");;
 		}
 		printf("\n");
 	}
