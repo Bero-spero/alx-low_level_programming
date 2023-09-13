@@ -8,7 +8,7 @@ int main(void)
 
 	int y, x = 1024, sum = 0;
 
-		for (y = 0; y < 1024; y++)
+		for (y = 0; y < x; y++)
 		{
 			if ((y % 3 == 0) || (y % 5 == 0))
 				sum = sum + y;
