@@ -4,7 +4,7 @@
  *@str:pointer for the string
  *Return:Void
  */
-void_puts(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
@@ -12,5 +12,4 @@ void_puts(char *str)
 		str++;
 	}
 	_putchar('\n');
-	return (str);
 }
