@@ -1,18 +1,22 @@
-#include "main.h"
+#include"main.h"
 /**
- *_strlen_recursion-length of string
- *@s:string
+ *factorial-factorialofint
+ *@n:int
  *Return:int
  */
-int _strlen_recursion(char *s)
+int factorial(int n)
 {
-	int i;
-
-	i = 0;
-	if (*s != '\0')
+	if (n == 0)
 	{
-		i++;
-		i += _strlen_recursion(s + 1);
+		return (1);
 	}
-	return (i);
+	else if (n < 0)
+	{
+		return (-1);
+	}
+	else if (n > 0)
+	{
+		n  = factorial(n - 1);
+	}
+	return (n);
 }
