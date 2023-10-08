@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  *string_nconcat- a function that concatenates two strings.
  *@s1:firstchar
@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		for (len2 = 0; s2[len2] != '\0'; ++len2)
 		;
 	}
-	if (n < len 2)
+	if (n < len2)
 	{
 		len2 = n;
 	}
