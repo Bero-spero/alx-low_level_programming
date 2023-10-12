@@ -19,6 +19,7 @@ void print_opcodes(char *a, int n)
 			printf(" ");
 	}
 	printf("\n");
+
 }
 
 /**
@@ -44,5 +45,6 @@ int main(int argc, char **argv)
 		exit(2);
 	{
 	print_opcodes((char *)&main, n);
+
 	return (0);
 }
