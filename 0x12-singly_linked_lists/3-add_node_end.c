@@ -15,7 +15,7 @@ unsigned int _strlen(char *str)
 }
 /**
  * add_node_end-adds a new node to the end of linked list
- * @head:doublepointer to a linked list
+ * @head:double pointer to a linked list
  * @str:string to add to the new node
  *
  * Return:pointer to the new node
