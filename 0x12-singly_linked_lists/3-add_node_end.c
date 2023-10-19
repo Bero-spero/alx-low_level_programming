@@ -32,7 +32,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->str = strdup(str);
 	new->len = _strlen(new->str);
 	new->next = NULL;
-	/* check if there is head - if 0 make new the head */
+
 	if (*head == NULL)
 	{
 		*head = new;
